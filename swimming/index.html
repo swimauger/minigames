@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Load CSS -->
+  <link rel="stylesheet" href="css/game.css">
+  <link rel="stylesheet" href="css/tempo.css">
+  <link rel="stylesheet" href="css/speed.css">
+  <link rel="stylesheet" href="css/clock.css">
+  <link rel="stylesheet" href="css/swimmer.css">
+
+  <title>Document</title>
+</head>
+<body>
+  <label class="clock">0.00</label>
+  <canvas class="swimmer"></canvas>
+  <input type="range" min="1" max="100" value="1" class="tempo" disabled="true">
+  <span class="speed-name">STOP</span>
+
+  <!-- Load JS -->
+  <script type="module" src="js/clock.mjs"></script>
+  <script src="js/direction.js"></script>
+  <script src="js/speed.js"></script>
+  <script src="js/stroke.js"></script>
+  <script type="module" src="js/tempo.mjs"></script>
+  <script type="module" src="js/swimmer.mjs"></script>
+</body>
+</html>

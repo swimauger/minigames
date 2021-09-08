@@ -1,0 +1,12 @@
+label.clock {
+  position: absolute;
+  left: 37.5vw;
+  width: 25vw;
+  text-align: center;
+  top: 5vh;
+  margin: 0;
+  font-size: 8vh;
+  color: #55F;
+  font-family: "Oswald","Arial Narrow","Avenir Next Condensed","MS UI Gothic","Arial","sans-serif";
+  font-weight: bold;
+}
